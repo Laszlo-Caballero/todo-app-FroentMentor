@@ -62,6 +62,16 @@ function Footer({
           Clear Completed
         </p>
       </footer>
+      <div className="flex justify-center gap-2 mt-40">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+          Frontend Mentor.
+        </a>
+        Coded by{" "}
+        <a href="https://github.com/Laszlo-Caballero" target="_blank">
+          Laszlo-Caballero.
+        </a>
+      </div>
       {!mobileFooter && (
         <div className="flex gap-8 text-DarkGrayish dark:bg-DarkDesatured mt-4 p-4 justify-center font-JoseFinSemiBlod text-lg bg-LightGrayishWhite shadow-xl">
           <p
