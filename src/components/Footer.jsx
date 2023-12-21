@@ -97,7 +97,7 @@ function Footer({
           </p>
         </div>
       )}
-      <div className="mt-40 tracking-wide">
+      <div className="mt-40 flex gap-2 justify-center mobile:flex-wrap">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
           Frontend Mentor.

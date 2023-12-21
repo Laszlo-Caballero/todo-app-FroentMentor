@@ -16,6 +16,7 @@ function SetTodo({ todos, setTodos }) {
         onClick={() => {
           const newTodo = todos.concat({ complete: false, todo: inputValue });
           setTodos(newTodo);
+          setValue("Set TODO");
         }}
       >
         <div className="rounded-full dark:bg-DarkDesatured h-full w-full flex items-center justify-center hover:bg-transparent bg-LightGrayishWhite">
