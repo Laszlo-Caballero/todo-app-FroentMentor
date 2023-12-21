@@ -3,7 +3,7 @@ import MoonIcon from "../assets/images/icon-moon.svg?react";
 import SunIcon from "../assets/images/icon-sun.svg?react";
 
 function Header() {
-  const [isDarkMode, setDarkMode] = useState(false);
+  const [isDarkMode, setDarkMode] = useState(true);
   useEffect(() => {
     if (isDarkMode) {
       document.documentElement.classList.add("dark");

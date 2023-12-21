@@ -2,7 +2,7 @@
   "name": "todo-app",
   "private": true,
   "version": "1.0.1",
-  "homepage": "http://Laszlo-Caballero.github.io/todo-app-FroentMentor",
+  "homepage": "https://laszlo-caballero.github.io/todo-app-FroentMentor/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
