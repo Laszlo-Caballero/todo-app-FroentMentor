@@ -11,7 +11,7 @@ function Footer({
 }) {
   const [mobileFooter, setMobileFooter] = useState(true);
   useEffect(() => {
-    if (window.innerWidth == 375) {
+    if (window.innerWidth <= 375) {
       setMobileFooter(false);
     }
   }, []);
