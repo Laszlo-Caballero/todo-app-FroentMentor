@@ -36,7 +36,7 @@ export default {
         DarkGrayishBlueWhite: "hsl(236, 9%, 61%)",
       },
       screens: {
-        mobile: "375px",
+        mobile: "300px",
       },
     },
   },
